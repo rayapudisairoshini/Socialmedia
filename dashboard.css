@@ -1,0 +1,109 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  background-image: url(socials-back.jpg);
+    background-color: #b6b4b4; /* Set your desired background color */
+}
+
+header {
+    background-color: rgb(0, 0, 0, 0.7); /* Change to your desired header background color */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#socialMediaLinks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialMediaInput {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.socialMediaInput input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #9b9696;
+    width: 200px; /* Adjust width as needed */
+}
+
+.socialMediaInput button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #009688; /* Change to your desired button background color */
+    color: white;
+    cursor: pointer;
+}
+
+.socialMediaInput button:hover {
+    background-color: #00796b; /* Change to your desired button hover color */
+}
+
+/* Define social media icons */
+.socialMediaInput img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Define social media icons with symbols */
+#whatsappLinkImg::before {
+    /* content: '\1F4F7'; /* Unicode character for camera symbol */ 
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#youtubeLinkImg::before {
+    /* content: '\1F46B'; /* Unicode character for glasses symbol */ 
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#pintrestLinkImg::before {
+    /* content: '\1F426'; /* Unicode character for bird symbol */ 
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#discordLinkImg::before {
+    /* content: '\1F464'; /* Unicode character for bust in silhouette symbol */
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#instagramkLinkImg::before {
+    /* content: '\1F4F1'; /* Unicode character for mobile phone symbol */ 
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+}
